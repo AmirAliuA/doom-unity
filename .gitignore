@@ -68,3 +68,32 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# IntelliJ IDEA specific ignores
+.idea/                      # IntelliJ IDEA project settings directory
+*.iml                       # Module files
+out/                        # Output directory
+.idea/modules.xml
+.idea/*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/libraries/
+.idea/.name
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/modules/
+.idea/shelf/
+
+# IntelliJ logs and temp files
+*.iws
+.idea/target
+.idea/artifacts
+.idea/.session
+.idea/runConfigurations/
+
+# Ignore any local file history and workspace configuration
+.idea/workspace/
+.idea/libraries/
+.idea/httpRequests/
